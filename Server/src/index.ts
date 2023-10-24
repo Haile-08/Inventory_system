@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const app: Application = express();
 const PORT = process.env.PORT || 3500;
 
-// Mongodb connection
+// Mongodb connections
 mongoose
   .connect(process.env.MONGO_DB_URL, {
     useNewUrlParser: true,
